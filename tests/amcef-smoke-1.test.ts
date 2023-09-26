@@ -60,7 +60,7 @@ test("Vyplnenie kontaktného formulára - bez odoslania", async ({ page, basePag
     await test.step("Zobrazená domovská stránka AMCEF", async () => {
         await basePage.navigujDo();
     });
-    await test.step("Používateľ zobrazí sekciu: O nás", async () => {
+    await test.step("Používateľ zobrazí sekciu: Kontakt", async () => {
         await basePage.vyperPolozkyMenu("Kontakt");
     });
     await test.step("Používateľ vyplní údaje kontaktného formulára", async () => {
