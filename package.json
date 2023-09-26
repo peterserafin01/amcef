@@ -1,0 +1,17 @@
+{
+    "name": "amcef",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "showReports": "npx playwright show-report",
+        "all": "npx playwright test tests --project=chrome --workers 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "1.38.1",
+        "prettier": "2.8.3",
+        "@types/node": "20.6.3"
+    }
+}

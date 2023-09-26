@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"module": "commonjs",
+		"target": "ES2022",
+		"noImplicitAny": false,
+		"sourceMap": true,
+		"outDir": "dist",
+		"allowJs": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"importHelpers": true
+	},
+	"exclude": ["node_modules", "test"],
+	"include": ["fixtures"]
+}
